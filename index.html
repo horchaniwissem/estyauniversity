@@ -34,6 +34,7 @@
   <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
 
   <!-- CSS -->
+  <link rel="stylesheet" href="assets/vendor/master-slider/source/assets/css/masterslider.main.css">
   <link rel="stylesheet" href="assets/css/core.css">
   <link rel="stylesheet" href="assets/css/components.css">
   <link rel="stylesheet" href="assets/css/globals.css">
@@ -46,8 +47,8 @@
 <main>
 
   <!-- Header -->
-  <header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance"
-          data-header-fix-moment="300">
+  <header id="js-header" class="u-header u-header--static u-header--show-hide u-header--change-appearance"
+          data-header-fix-moment="500" data-header-fix-effect="slide">
     <!-- Top Bar -->
     <div
       class="u-header__section u-header__section--hidden u-header__section--dark g-bg-black g-py-7 g-brd-bottom g-brd-primary g-brd-bottom-2">
@@ -112,9 +113,7 @@
       </div>
     </div>
     <!-- End Top Bar -->
-    <div class="u-header__section u-header__section--light g-bg-white-opacity-0_8 g-py-5"
-         data-header-fix-moment-exclude="g-bg-white-opacity-0_8 g-py-5"
-         data-header-fix-moment-classes="g-bg-white u-shadow-v18 g-py-0">
+    <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-5" data-header-fix-moment-exclude="g-bg-white-opacity-0_7 u-shadow-v18 g-py-0" data-header-fix-moment-classes="g-bg-white-opacity-0_7 u-shadow-v18 g-py-0">
       <nav class="js-mega-menu navbar navbar-expand-lg hs-menu-initialized hs-menu-horizontal">
         <div class="container">
           <!-- Responsive Toggle Button -->
@@ -435,30 +434,107 @@
   </header>
   <!-- End Header -->
 
+  <div id="masterslider" class="master-slider ms-skin-default">
+    <div class="ms-slide" data-delay="11.5" data-fill-mode="fill">
+      <img src="assets/img/blank.gif" alt="" title="" data-src="assets/img-temp/1920x1080/home1.png" />
+      <div class="ms-layer msp-cn-134-18"
+           style=""
+           data-effect="t(true,n,150,n,6,n,n,n,n,n,n,3,n,n,n)"
+           data-duration="1500"
+           data-delay="200"
+           data-ease="easeOutQuad"
+           data-offset-x="308"
+           data-offset-y="0"
+           data-origin="mc"
+           data-position="normal">
+        <div class="container g-z-index-1 text-center g-bg-white g-py-20">
+          <div class="g-max-width-600">
+            <h1 class="g-color-black g-font-weight-700 g-font-size-30 g-font-size-50--md g-mb-30 text-uppercase">Décrochez votre <span class="g-font-size-40 g-font-size-60--md g-font-weight-900">alternace</span></h1>
+          </div>
 
-  <!-- Promo Block -->
-  <section class="g-pos-rel">
-    <!-- Promo Block - Slider -->
-    <div class="js-carousel" data-autoplay="true" data-infinite="true" data-fade="true" data-speed="5000">
-      <div
-        class="js-slide g-min-height-100vh g-flex-centered g-bg-cover g-bg-pos-top-center g-bg-img-hero g-bg-black-opacity-0_3--after"
-        style="background-image: url(assets/img-temp/1920x1080/img20.jpg);"></div>
-
-      <div
-        class="js-slide g-min-height-100vh g-flex-centered g-bg-cover g-bg-pos-top-center g-bg-img-hero g-bg-black-opacity-0_3--after"
-        style="background-image: url(assets/img-temp/1920x1080/img17.jpg);"></div>
-    </div>
-    <!-- End Promo Block - Slider -->
-
-    <!-- Promo Block Content -->
-    <div class="g-absolute-centered--y g-left-0 g-right-0">
-      <div class="container g-z-index-1">
-
+          <a class="btn btn-lg u-btn-primary u-btn-inset g-font-weight-600 g-font-size-13 text-uppercase rounded-0 g-px-25 g-py-20 mx-2" href="#">
+            En savoir plus
+            <i class="ml-2 fa fa-arrow-right"></i>
+          </a>
+        </div>
       </div>
     </div>
-    <!-- End Promo Block Content -->
-  </section>
-  <!-- End Promo Block -->
+    <div class="ms-slide" data-delay="11.5" data-fill-mode="fill">
+      <img src="assets/img/blank.gif" alt="" title="" data-src="assets/img-temp/1920x1080/home2.png" />
+      <div class="ms-layer msp-cn-134-18"
+           style=""
+           data-effect="t(true,n,150,n,6,n,n,n,n,n,n,3,n,n,n)"
+           data-duration="1500"
+           data-delay="200"
+           data-ease="easeOutQuad"
+           data-offset-x="308"
+           data-offset-y="0"
+           data-origin="mc"
+           data-position="normal">
+        <div class="container g-z-index-1 text-center g-bg-white g-py-20">
+          <div class="g-max-width-600">
+            <h1 class="g-color-black g-font-weight-900 g-font-size-40 g-font-size-60--md g-mb-30 text-uppercase">Aide <br><span class="g-font-size-30 g-font-size-50--md g-font-weight-700">aux entreprises</span></h1>
+          </div>
+
+          <a class="btn btn-lg u-btn-primary u-btn-inset g-font-weight-600 g-font-size-13 text-uppercase rounded-0 g-px-25 g-py-20 mx-2" href="#">
+            En savoir plus
+            <i class="ml-2 fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="ms-slide" data-delay="11.5" data-fill-mode="fill">
+      <img src="assets/img/blank.gif" alt="" title="" data-src="assets/img-temp/1920x1080/home3.png" />
+      <div class="ms-layer msp-cn-134-18"
+           style=""
+           data-effect="t(true,n,150,n,6,n,n,n,n,n,n,3,n,n,n)"
+           data-duration="1500"
+           data-delay="200"
+           data-ease="easeOutQuad"
+           data-offset-x="308"
+           data-offset-y="0"
+           data-origin="mc"
+           data-position="normal">
+        <div class="container g-z-index-1 text-center g-bg-white g-py-20">
+          <div class="g-max-width-600">
+            <h1 class="g-color-black g-font-weight-900 g-font-size-40 g-font-size-60--md g-mb-30 text-uppercase">Trouver <br><span class="g-font-size-30 g-font-size-50--md g-font-weight-700">ma formation</span></h1>
+          </div>
+
+          <a class="btn btn-lg u-btn-primary u-btn-inset g-font-weight-600 g-font-size-13 text-uppercase rounded-0 g-px-25 g-py-20 mx-2" href="#">
+            Découvrir nos cursus
+            <i class="ml-2 fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="ms-slide" data-delay="11.5" data-fill-mode="fill">
+      <img src="assets/img/blank.gif" alt="" title="" data-src="assets/img-temp/1920x1080/home4.png" />
+      <div class="ms-layer msp-cn-134-18"
+           style=""
+           data-effect="t(true,n,150,n,6,n,n,n,n,n,n,3,n,n,n)"
+           data-duration="1500"
+           data-delay="200"
+           data-ease="easeOutQuad"
+           data-offset-x="308"
+           data-offset-y="0"
+           data-origin="mc"
+           data-position="normal">
+        <div class="container g-z-index-1 text-center g-bg-white g-py-20">
+          <div class="g-max-width-600">
+            <h1 class="g-color-black g-font-weight-900 g-font-size-30 g-font-size-50--md g-mb-30 text-uppercase">International <br><span class="g-font-size-20 g-font-size-40--md g-font-weight-700">foundation diploma</span><br><span class="g-font-size-16 g-font-size-25--md g-font-weight-700">for higher education studies</span></h1>
+          </div>
+
+          <a class="btn btn-lg u-btn-primary u-btn-inset g-font-weight-600 g-font-size-13 text-uppercase rounded-0 g-px-25 g-py-20 mx-2" href="#">
+            Apply
+            <i class="ml-2 fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 
   <section class="g-py-100">
     <div class="container">
@@ -481,7 +557,7 @@
 
         <!-- Article Image -->
         <div class="col-lg-6 align-self-center">
-          <img class="img-fluid w-100 u-shadow-v21 rounded" src="assets/img-temp/900x600/img3.jpg"
+          <img class="img-fluid w-100 u-shadow-v21 rounded" src="assets/img-temp/900x600/propos.png"
                alt="Iamge Description">
         </div>
         <!-- End Article Image -->
@@ -759,7 +835,7 @@
       <div class="row">
         <div class="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
           <div class="d-lg-flex">
-            <small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">2020 &copy; Tous les droits
+            <small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">2021 &copy; Tous les droits
               Réservé.</small>
             <ul class="u-list-inline">
               <li class="list-inline-item">
@@ -821,43 +897,30 @@
 
 
 <!-- JS Implementing Plugins -->
-<script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+<script src="assets/vendor/appear.js"></script>
 <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-<script src="assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
-<script src="assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
-<script src="assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
-<script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-<script src="assets/vendor/typedjs/typed.min.js"></script>
-<script src="assets/vendor/jquery.countdown.min.js"></script>
+<script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+<script src="assets/vendor/masonry/dist/masonry.pkgd.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/fancybox/jquery.fancybox.js"></script>
 
-<script src="assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
-
-<!-- JS -->
+<!-- JS Unify -->
 <script src="assets/js/hs.core.js"></script>
-<script src="assets/js/components/hs.carousel.js"></script>
 <script src="assets/js/components/hs.header.js"></script>
 <script src="assets/js/helpers/hs.hamburgers.js"></script>
-<script src="assets/js/components/hs.tabs.js"></script>
+<script src="assets/js/components/hs.onscroll-animation.js"></script>
 <script src="assets/js/components/hs.popup.js"></script>
-<script src="assets/js/components/text-animation/hs.text-slideshow.js"></script>
+<script src="assets/js/components/hs.carousel.js"></script>
 <script src="assets/js/components/hs.go-to.js"></script>
-<script src="assets/js/components/hs.countdown.js"></script>
 <script src="assets/js/components/hs.dropdown.js"></script>
 
-<!-- JS Customization -->
-<script src="assets/js/custom.js"></script>
+<script src="assets/vendor/master-slider/source/assets/js/masterslider.min.js"></script>
 
 <!-- JS Plugins Init. -->
 <script>
-  $(document).on('ready', function () {
+  $(document).ready(function () {
     // initialization of carousel
     $.HSCore.components.HSCarousel.init('.js-carousel');
-
-    // initialization of tabs
-    $.HSCore.components.HSTabs.init('[role="tablist"]');
-
-    // initialization of popups
-    $.HSCore.components.HSPopup.init('.js-fancybox');
 
     // initialization of HSDropdown component
     $.HSCore.components.HSDropdown.init($('[data-dropdown-target]'), {
@@ -869,25 +932,30 @@
     // initialization of go to
     $.HSCore.components.HSGoTo.init('.js-go-to');
 
-    var countdowns = $.HSCore.components.HSCountdown.init('.js-countdown', {
-      yearsElSelector: '.js-cd-years',
-      monthElSelector: '.js-cd-month',
-      daysElSelector: '.js-cd-days',
-      hoursElSelector: '.js-cd-hours',
-      minutesElSelector: '.js-cd-minutes',
-      secondsElSelector: '.js-cd-seconds'
+
+    // initialization of masonry
+    $('.masonry-grid').imagesLoaded().then(function () {
+      $('.masonry-grid').masonry({
+        columnWidth: '.masonry-grid-sizer',
+        itemSelector: '.masonry-grid-item',
+        percentPosition: true
+      });
     });
 
-    // initialization of text animation (typing)
-    $(".u-text-animation.u-text-animation--typing").typed({
-      strings: [
-        "an awesome template",
-        "perfect template",
-        "just like a boss"
-      ],
-      typeSpeed: 60,
-      loop: true,
-      backDelay: 1500
+    // initialization of scroll animation
+    $.HSCore.components.HSOnScrollAnimation.init('[data-animation]');
+
+    // initialization of popspu with media
+    $.HSCore.components.HSPopup.init('.js-fancybox-media', {
+      transitionEffect: false,
+      helpers: {
+        media: {},
+        overlay: {
+          css: {
+            'background': 'rgba(0, 0, 0, .8)'
+          }
+        }
+      }
     });
   });
 
@@ -904,10 +972,59 @@
     });
   });
 
-  $(window).on('resize', function () {
-    setTimeout(function () {
-      $.HSCore.components.HSTabs.init('[role="tablist"]');
-    }, 200);
+  var slider = new MasterSlider();
+
+  slider.control('arrows', {
+    autohide: true,
+    overVideo: true
+  });
+  slider.control('bullets', {
+    autohide: true,
+    overVideo: true,
+    dir: 'h',
+    align: 'bottom',
+    space: 6,
+    margin: 10
+  });
+  slider.control('timebar', {
+    autohide: false,
+    overVideo: true,
+    align: 'bottom',
+    color: '#3d3d3d',
+    width: 2
+  });
+  slider.setup("masterslider", {
+    width: 1140,
+    height: 646,
+    minHeight: 0,
+    space: 0,
+    start: 1,
+    grabCursor: true,
+    swipe: true,
+    mouse: true,
+    keyboard: true,
+    layout: "fullwidth",
+    autoplay: true,
+    instantStartLayers: false,
+    loop: true,
+    shuffle: false,
+    preload: 0,
+    heightLimit: true,
+    autoHeight: false,
+    smoothHeight: true,
+    endPause: true,
+    overPause: true,
+    fillMode: "fill",
+    centerControls: false,
+    startOnAppear: false,
+    layersMode: "center",
+    autofillTarget: "",
+    hideLayers: false,
+    fullscreenMargin: 0,
+    speed: 15,
+    dir: "h",
+    parallaxMode: 'mouse:y-only',
+    view: "basic"
   });
 </script>
 

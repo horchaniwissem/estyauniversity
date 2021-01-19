@@ -5422,6 +5422,15 @@
   -webkit-backface-visibility: hidden;
 }
 
+.g-absolute-centered--y1 {
+  position: absolute !important;
+  top: 40% !important;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-backface-visibility: hidden;
+}
+
 @media (min-width: 768px) {
   .g-absolute-centered--y--md {
     position: absolute !important;
